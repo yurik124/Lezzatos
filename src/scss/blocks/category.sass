@@ -1,0 +1,54 @@
+.category
+    background: $black
+    padding: 90px 0 100px
+    position: relative
+    &__decor-lines-45deg
+        position: absolute
+        top: 20%
+        right: -6%
+        transform: rotate(45deg)
+    &__suptitle
+        text-align: center
+    &__title
+        text-align: center
+    &__grid
+        display: grid
+        grid-template-columns: 1fr 1fr
+        grid-column-gap: 25px
+        grid-row-gap: 20px
+        grid-auto-rows: minmax(200px, auto)
+        @media screen and ( max-width:  850px)
+            grid-template-columns: 1fr
+            row-gap: 30px
+    &__item
+        background: $green
+        padding: 58px 75px 45px 120px
+        &--east-food, &--chinese-food, &--korean-food, &--western-food
+            position: relative
+        &--east-food::before,&--chinese-food::before, &--korean-food::before, &--western-food::before
+            content: ''
+            position: absolute
+            top: 45px
+            left: 45px
+            width: 60px
+            height: 60px
+            background-repeat: no-repeat
+            background-size: contain
+        &--east-food::before
+            background-image: url(img/category/east-food.svg)
+        &--korean-food::before
+            background-image: url(img/category/korean-food.svg)
+        &--western-food::before
+            background-image: url(img/category/western-food.svg)
+        &--chinese-food::before
+            background-image: url(img/category/chinese-food.svg)
+    &__item-title
+        margin: 0
+        color: $zoloto
+        font-weight: 600
+        margin-bottom: 12px
+    &__item-text
+        margin: 0
+        color: $dark-gray
+        line-height: 1.5em
+        font-size: 14px

@@ -1,0 +1,47 @@
+.reservation
+    padding: 100px 0
+    &__inner
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        @media screen and ( max-width:  1050px)
+            justify-content: space-around
+    &__title
+        margin-bottom: 26px
+    &__content
+        max-width: 510px
+    &__text
+        color: $light-gray
+        line-height: 1.625em
+    &__form
+        padding: 50px 70px
+        background: $zoloto
+        max-width: 523px
+        min-height: 452px
+        color: $white
+        position: relative
+        @media screen and ( max-width:  600px)
+            padding: 25px 35px
+        &-title
+            margin: 0
+            margin-bottom: 50px
+            font-weight: 600
+            font-size: 28px
+            color: $white
+            @media screen and ( max-width:  600px)
+                margin-bottom: 25px
+        &-btn
+            margin-top: 30px
+    &__decor-line-angle1
+        position: absolute
+        z-index: 0
+        left: 0%
+        top: 0%
+        stroke: #9B7C4E
+    &__decor-line-angle2
+        position: absolute
+        z-index: 0
+        left: 75%
+        top: 72%
+        stroke: #9B7C4E
+        transform: rotate(180deg)

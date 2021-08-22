@@ -1,0 +1,38 @@
+.list-menu
+    background: $white
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25)
+    margin: 0
+    padding: 50px 40px
+    list-style-type: none
+    max-width: 442px
+    &__item:not(:last-child)
+        margin-bottom: 30px
+    &__row
+        position: relative
+        display: flex
+        justify-content: space-between
+        margin-bottom: 8px
+        &::after
+            position: absolute
+            z-index: 9
+            content: ''
+            width: 100%
+            border-bottom: 2px $zoloto dashed
+            left: 0
+            bottom: 5px
+    &__name, &__price
+        z-index: 10
+        background: $white
+        font-size: 20px
+        font-weight: 600
+        line-height: 1.5em
+    &__name
+        color: $black
+        padding-right: 10px
+    &__price
+        color: $zoloto
+        padding-left: 10px
+    &__descr
+        color: $dark-gray
+        font-size: 16px
+        line-height: 1.625em

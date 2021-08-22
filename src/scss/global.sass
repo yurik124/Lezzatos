@@ -1,0 +1,49 @@
+body
+    font-family: 'Poppins', sans-serif
+    font-weight: 400
+    font-size: 16px
+
+a
+    text-decoration: none
+
+html
+    box-sizing: border-box
+
+*,*::after,*::before
+    box-sizing: inherit
+
+img
+    max-width: 100%
+
+.container
+    max-width: 1200px
+    margin: 0 auto
+    padding: 0 15px
+
+.bg-black
+    background-color: $black
+
+.bg-green
+    background-color: $green
+
+.bg-gray
+    // background-color: rgba($black, 80%)#404345
+    background-color: #404345
+
+.text-align-center
+    text-align: center
+
+.clip-rt-80
+    clip-path: polygon(0 0, calc(100% - 80px) 0, 100% 80px, 100% 100%, 0 100%)
+.clip-lt-80
+    clip-path: polygon(80px 0, 100% 0, 100% 100%, 0 100%, 0 80px)
+.clip-lb-80
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80px 100%, 0 calc(100% - 80px))
+.clip-rt-40
+    clip-path: polygon(0 0, calc(100% - 40px) 0, 100% 40px, 100% 100%, 0 100%)
+.clip-lt-rb-40
+    clip-path: polygon(40px 0, 100% 0, 100% calc(100% - 40px), calc(100% - 40px) 100%, 0 100%, 0 40px)
+.clip-rt-lb-40
+    clip-path: polygon(0 0, calc(100% - 40px) 0, 100% 40px, 100% 100%, 40px 100%, 0 calc(100% - 40px))
+.clip-rt-20
+    clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 0 100%)

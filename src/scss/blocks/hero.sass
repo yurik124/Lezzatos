@@ -1,0 +1,69 @@
+.hero
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 54.11%, rgba(11, 19, 21, 0) 102.02%), rgba($black, .3)
+    background-size: cover
+    padding-top: 198px
+    padding-bottom: 122px
+    position: relative
+    @media screen and ( max-width:  700px)
+        padding-bottom: 90px
+    &__decor-line-angle
+        position: absolute
+        left: 0
+        bottom: 0
+    &__decor-lines
+        position: absolute
+        top: 215px
+        right: 4%
+        @media screen and ( max-width:  656px)
+            display: none
+    &__decor-lines-45deg
+        position: absolute
+        bottom: 11%
+        right: 26%
+        transform: rotate(-45deg)
+        @media screen and ( max-width:  656px)
+            display: none
+    &__inner
+        display: flex
+        justify-content: space-between
+        @media screen and ( max-width:  1080px)
+            flex-direction: column
+    &__content
+        max-width: 510px
+        @media screen and ( max-width:  1080px)
+            margin-bottom: 100px
+    &__title
+        margin-bottom: 30px
+        font-size: 50px
+        @media screen and ( max-width:  500px)
+            font-size: 36px
+
+    &__text
+        margin-bottom: 60px
+        color: $light-gray
+        line-height: 1.5em
+    &__imges
+        position: relative
+        transform: translateY(-38px)
+        @media screen and ( max-width:  1080px)
+            padding-left: 109px
+        @media screen and ( max-width:  570px)
+            padding-left: 0
+            display: flex
+            justify-content: center
+    &__img-lg
+        width: 100%
+        max-width: 430px
+        max-height: 490px
+        object-fit: cover
+    &__img-sm
+        position: absolute
+        top: 274px
+        left: -109px
+        max-width: 245px
+        max-height: 280px
+        object-fit: cover
+        @media screen and ( max-width:  1080px)
+            left: 0
+        @media screen and ( max-width:  570px)
+            display: none

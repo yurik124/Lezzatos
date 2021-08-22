@@ -1,0 +1,44 @@
+.slider
+    display: flex
+    flex-direction: column
+    justify-content: center
+    &__content
+        position: relative
+    &__arrows
+        display: flex
+        justify-content: space-between
+        width: 100%
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        left: 0
+    &__arrow-left, &__arrow-right
+        cursor: pointer
+        border: none
+        width: 20px
+        height: 30px
+    &__arrow-left
+        background: url(img/arrow-left.svg)
+    &__arrow-right
+        background: url(img/arrow-right.svg)
+    &-text
+        margin: auto
+        padding: 0 25px
+        position: relative
+        font-size: 20px
+        line-height: 1.3rem
+        max-width: 840px
+        &::after
+            content: ''
+            position: absolute
+            bottom: -90px
+            left: 50%
+            width: 56px
+            height: 40px
+            transform: translateX(-50%)
+            background: url(img/quotes.svg)
+    &__author
+        margin: 0
+        font-weight: 600
+        font-size: 26px
+        margin-top: 140px

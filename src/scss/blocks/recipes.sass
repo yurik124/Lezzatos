@@ -1,0 +1,15 @@
+.recipes
+    padding: 100px 0
+    &__inner
+        position: relative
+    &__decor-line-angle
+        position: absolute
+        left: 103%
+        top: -15%
+        transform: rotate(180deg)
+    &__content
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+        gap: 30px
+        @media screen and ( max-width:  1215px)
+            grid-template-columns: 1fr

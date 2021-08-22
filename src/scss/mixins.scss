@@ -1,0 +1,29 @@
+@mixin border {
+    --grad: transparent 49.5%, rgba(227, 192, 141, 0.1) 50%;
+    background: linear-gradient(to top right, var(--grad)) top right, linear-gradient(to top left, var(--grad)) top left,
+        linear-gradient(to bottom right, var(--grad)) bottom right,
+        linear-gradient(to bottom left, var(--grad)) bottom left, white;
+    background-size: 13px 13px; /* 10px of the clip-path + 3px of border */
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    cursor: pointer;
+
+    // border: 3px solid rgba($zoloto, 0.2);
+}
+
+// @mixin clip($position, $count) {
+//     --a: $count;
+//     @if ($position== "tl") {
+//         clip-path: polygon($count 0, 100% 0, 100% 100%, 0 100%, 0 $count);
+//     }
+//     @if ($position== "tr") {
+//         clip-path: polygon(0 0, calc(100% - $count) 0, 100% $count, 100% 100%, 0 100%);
+//         clip-path: polygon(0 0, calc(100% - var(var(--a))) 0, 100% 84px, 100% 100%, 0 100%);
+//     }
+//     @if ($position== "bl") {
+//         clip-path: polygon(0 0, 100% 0, 100% 100%, $count 100%, 0 calc(100% - $count));
+//     }
+//     @if ($position== "br") {
+//         clip-path: polygon(0 0, 100% 0, 100% calc(100% - $count), calc(100% - $count) 100%, 0 100%);
+//     }
+// }

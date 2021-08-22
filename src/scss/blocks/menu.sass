@@ -1,0 +1,14 @@
+.menu
+    padding: 100px 0
+    position: relative
+    &__decor-line-angle
+        position: absolute
+        left: 0
+        top: 0
+        transform: scale(1, -1)
+    &__content
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+        gap: 30px
+        @media screen and ( max-width:  1080px)
+            grid-template-columns: 1fr

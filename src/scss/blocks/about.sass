@@ -1,0 +1,39 @@
+.about
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: bottom right
+    padding: 136px 0 80px
+    &__decor-lines-45deg
+        position: absolute
+        bottom: -3%
+        right: -10%
+        transform: rotate(-45deg)
+    &__inner
+        position: relative
+    &__imges
+        @media screen and ( max-width:  750px)
+            padding: 25px 35px
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-around
+    &__img-item
+        max-width: 347px
+        max-height: 772px
+        object-fit: cover
+        @media screen and ( max-width:  750px)
+            max-width: 100%
+    &__img-item:not(:last-child)
+        margin-right: 23px
+        @media screen and ( max-width:  750px)
+            margin-right: 0
+            margin-bottom: 30px
+    &__img-item:last-child
+        transform: translateY(-56px)
+        @media screen and ( max-width:  750px)
+            transform: translateY(0)
+    &__content
+        position: absolute
+        right: 0
+        bottom: 0
+        @media screen and ( max-width:  750px)
+            position: static

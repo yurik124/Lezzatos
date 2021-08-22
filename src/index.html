@@ -1,0 +1,27 @@
+@@include('./parts/header.html')
+
+<main class="main">
+    @@include('./parts/hero.html')
+    @@include('./parts/category.html')
+    @@include('./parts/about.html')
+    @@include('./parts/statistic.html')
+    @@include('./parts/menu.html')
+    @@include('./parts/menu-2.html')
+    @@include('./parts/reservation.html')
+    @@include('./parts/testimonials.html')
+    @@include('./parts/video.html')
+    @@include('./parts/recipes.html')
+    @@include('./parts/newsletter.html')
+</main>
+<!-- /.main -->
+
+@@include('./parts/footer.html')
+<script>
+    const burger = document.querySelector('.burger')
+    burger.onclick = () => {
+        burger.classList.toggle('active')
+        document.querySelector('.nav__list').classList.toggle('active')
+        document.querySelector('.header').classList.toggle('active')
+    }
+
+</script>

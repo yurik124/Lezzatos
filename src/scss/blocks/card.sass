@@ -1,0 +1,35 @@
+.card
+    background: $white
+    box-shadow: 0 4px 40px rgba(#000, 0.25)
+    max-width: 570px
+    padding: 40px 30px
+    z-index: 20
+    &__title
+        margin: 0
+        margin-bottom: 20px
+        font-family: $cursive
+        font-size: 36px
+        color: $zoloto
+    &__suptitle
+        font-weight: 600
+        color: $black
+        font-size: 36px
+        margin-bottom: 30px
+    &__text
+        color: $dark-gray
+        line-height: 1.5rem
+        margin-bottom: 57px
+    &__link
+        color: $zoloto
+        position: relative
+        &::after
+            content: ''
+            position: absolute
+            right: -30px
+            top: 50%
+            transform: translateY(-50%)
+            background: no-repeat url(img/arrow.svg)
+            width: 20px
+            height: 15px
+        &:hover
+            text-decoration: underline

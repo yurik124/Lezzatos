@@ -1,0 +1,20 @@
+.statistic
+    padding: 60px 0
+    &__inner
+        display: flex
+        text-align: center
+        @media screen and ( max-width:  750px)
+            flex-direction: column
+            row-gap: 30px
+    &__item
+        width: 100%
+    &__item:last-child
+        margin-right: 0
+    &__number
+        font-size: 54px
+        font-weight: 600
+        color: $zoloto
+        margin-bottom: 30px
+    &__descr
+        font-size: 20px
+        color: $white

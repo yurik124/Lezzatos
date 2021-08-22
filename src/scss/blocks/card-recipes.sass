@@ -1,0 +1,51 @@
+.card-recipes
+    width: 100%
+    max-width: 369px
+    display: flex
+    flex-direction: column
+    background-color: $zoloto
+    justify-self: center
+    @media screen and ( max-width:  400px)
+        max-width: 300px
+
+    &:hover &__img
+        opacity: 0.5
+    &:hover &__title
+        color: $zoloto
+    &__title
+        font-weight: 600
+        font-size: 22px
+        color: $white
+        margin: 0
+        margin-bottom: 12px
+        white-space: nowrap
+        overflow: hidden
+        text-overflow: ellipsis
+    &__content
+        background: $green
+        width: 100%
+        padding: 30px 20px
+    &__text
+        color: $dark-gray
+        margin-bottom: 47px
+        height: 73px
+        display: -webkit-box
+        -webkit-line-clamp: 4
+        -webkit-box-orient: vertical
+        overflow: hidden
+    &__author
+        color: $white
+        display: flex
+        align-items: center
+    &__img
+        width: 100%
+        object-fit: cover
+        max-width: 369px
+        max-height: 220px
+    &__avatar
+        width: 40px
+        height: 40px
+        max-width: 100%
+        object-fit: cover
+        margin-right: 15px
+        border-radius: 50%

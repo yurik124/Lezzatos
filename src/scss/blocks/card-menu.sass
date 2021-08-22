@@ -1,0 +1,52 @@
+.card-menu
+    max-width: 370px
+    min-width: 300px
+    max-height: 500px
+    position: relative
+    overflow: hidden
+    justify-self: center
+    &:hover &__descr
+        transform: translateY(0)
+    &__descr
+        position: absolute
+        padding: 20px 20px 0px 75px
+        bottom: 0
+        left: 0
+        width: 340px
+        background: rgba($white, 0.9)
+        transform: translateY(calc(100% - 63px))
+        transition: transform .2s linear
+    &__title
+        margin: 0
+        margin-bottom: 20px
+        color: $black
+        position: relative
+        font-size: 20px
+        font-weight: 600
+        &::before
+            content: ''
+            position: absolute
+            width: 40px
+            height: 3px
+            left: -55px
+            top: 50%
+            transform: translateY(-50%)
+            background-color: $zoloto
+    &__list
+        margin: 0
+        padding: 0
+        margin-bottom: 20px
+        list-style-type: none
+        font-size: 15px
+        color: $dark-gray
+    &__item
+        margin-bottom: 8px
+    &__price
+        font-weight: 600
+        font-size: 36px
+        color: $zoloto
+        margin-bottom: 20px
+        &-descr
+            color: $light-gray
+            font-weight: 400
+            font-size: 12px

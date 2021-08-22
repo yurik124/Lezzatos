@@ -1,0 +1,21 @@
+.video
+    display: flex
+    justify-content: center
+    height: 600px
+    background: $black
+    position: relative
+    &__btn
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        width: 120px
+        height: 120px
+        background: no-repeat url(img/play.svg)
+        border: 0
+        cursor: pointer
+        transition: width .2s ease-in-out, height .2s ease-in-out
+        transition: background-size .2s ease-in-out
+        &:hover
+            width: 122px
+            height: 122px
+            background-size: 122px

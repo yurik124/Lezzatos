@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+<!-- <symbol id="line-angle" width="132" height="134" viewBox="0 0 169 174" fill="none"> -->
+<!-- <symbol id="line-angle" width="130" height="130" viewBox="0 0 169 174" fill="none"> -->
+<!-- <symbol id="line-angle" width="169" height="174" viewBox="0 0 169 174" fill="none"> -->
+<symbol id="line-angle" fill="none">
+<g opacity="0.5">
+<path d="M91.8853 0L91.8853 173"/>
+<path d="M83.623 0L83.623 173"/>
+<path d="M75.3608 0L75.3608 173"/>
+<path d="M67.0981 0L67.0981 173"/>
+<path d="M58.8359 0L58.8359 173"/>
+<path d="M50.5737 0L50.5737 173"/>
+<path d="M42.3115 0L42.3115 173"/>
+<path d="M34.0493 0L34.0493 173"/>
+<path d="M25.7871 0L25.7871 173"/>
+<path d="M17.5244 0L17.5244 173"/>
+<path d="M9.26221 0L9.26221 173"/>
+<path d="M1 0L1 173"/>
+<path d="M169 173L91.8852 173"/>
+<path d="M169 164.696L91.8852 164.696"/>
+<path d="M169 156.392L91.8852 156.392"/>
+<path d="M169 148.088L91.8852 148.088"/>
+<path d="M169 139.784L91.8852 139.784"/>
+<path d="M169 131.48L91.8852 131.48"/>
+<path d="M169 123.176L91.8852 123.176"/>
+<path d="M169 114.872L91.8852 114.872"/>
+<path d="M169 106.568L91.8852 106.568"/>
+<path d="M169 98.2639L91.8852 98.2639"/>
+<path d="M169 89.96L91.8852 89.96"/>
+<path d="M169 81.656L91.8852 81.656"/>
+</g>
+</symbol>
+<symbol id="lines" width="172" height="93" viewBox="0 0 172 93" fill="none">
+<g opacity="0.34">
+<path d="M0 1L173 1"/>
+<path d="M0 9.26221L173 9.26221"/>
+<path d="M0 17.5247L173 17.5247"/>
+<path d="M0 25.7869L173 25.7869"/>
+<path d="M0 34.0491L173 34.0491"/>
+<path d="M0 42.3115L173 42.3115"/>
+<path d="M0 50.5737L173 50.5737"/>
+<path d="M0 58.8362L173 58.8362"/>
+<path d="M0 67.0984L173 67.0984"/>
+<path d="M0 75.3606L173 75.3606"/>
+<path d="M0 83.623L173 83.623"/>
+<path d="M0 91.8853L173 91.8853"/>
+</g>
+
+<symbol id="sm-line-angle" width="135" height="133" viewBox="0 0 135 133" fill="none">
+<g opacity="0.2">
+<path d="M73.4922 133L73.4922 1.00049" stroke="#9B7C4E"/>
+<path d="M66.9019 133L66.9019 1.00049" stroke="#9B7C4E"/>
+<path d="M60.312 133L60.312 1.00049" stroke="#9B7C4E"/>
+<path d="M53.7222 133L53.7222 1.00049" stroke="#9B7C4E"/>
+<path d="M47.1318 133L47.1318 1.00049" stroke="#9B7C4E"/>
+<path d="M40.5415 133L40.5415 1.00049" stroke="#9B7C4E"/>
+<path d="M33.9517 133L33.9517 1.00049" stroke="#9B7C4E"/>
+<path d="M27.3608 133L27.3608 1.00049" stroke="#9B7C4E"/>
+<path d="M20.771 133L20.771 1.00049" stroke="#9B7C4E"/>
+<path d="M14.1807 133L14.1807 1.00049" stroke="#9B7C4E"/>
+<path d="M7.59082 133L7.59083 1.00049" stroke="#9B7C4E"/>
+<path d="M1.00049 133L1.00049 1.00049" stroke="#9B7C4E"/>
+<path d="M135 1.00058L73.4918 1.00058" stroke="#9B7C4E"/>
+<path d="M135 7.33649L73.4918 7.33649" stroke="#9B7C4E"/>
+<path d="M135 13.6724L73.4918 13.6724" stroke="#9B7C4E"/>
+<path d="M135 20.0083L73.4918 20.0083" stroke="#9B7C4E"/>
+<path d="M135 26.3445L73.4918 26.3445" stroke="#9B7C4E"/>
+<path d="M135 32.6804L73.4918 32.6804" stroke="#9B7C4E"/>
+<path d="M135 39.0163L73.4918 39.0163" stroke="#9B7C4E"/>
+<path d="M135 45.3529L73.4918 45.3529" stroke="#9B7C4E"/>
+<path d="M135 51.6882L73.4918 51.6882" stroke="#9B7C4E"/>
+<path d="M135 58.0241L73.4918 58.0241" stroke="#9B7C4E"/>
+<path d="M135 64.3607L73.4918 64.3607" stroke="#9B7C4E"/>
+<path d="M135 70.6962L73.4918 70.6962" stroke="#9B7C4E"/>
+</g>
+</symbol>
+
+</svg>
